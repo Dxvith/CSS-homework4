@@ -1,0 +1,130 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.row{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.col-1 {
+    width: 8.333333333333333%;
+  }
+  .col-2 {
+    width: 16.66666666666667%;
+  }
+  .col-3 {
+    width: 25%;
+  }
+  .col-4 {
+    width: 33.33333333333333%;
+  }
+  .col-5 {
+    width: 41.66666666666667%;
+  }
+  .col-6 {
+    width: 50%;
+  }
+  .col-7 {
+    width: 58.33333333333333%;
+  }
+  .col-8 {
+    width: 66.66666666666667%;
+  }
+  .col-9 {
+    width: 75% ;
+  }
+  .col-10 {
+    width: 83.33333333333333%;
+  }
+  .col-11 {
+    width: 91.66666666666667%;
+  }
+  .col-12 {
+    width: 100%;
+  }
+
+.container{
+    width: 1200px;
+    margin: auto;
+}
+
+.header-content{
+    width: 100%;
+    height: 130px;
+    background-color: #ddd;
+    margin: 20px 0;
+}
+
+.row{
+  margin-inline: -15px;
+}
+
+.col-3,.col-6,.col-4{
+  padding-inline: 15px;
+}
+
+.box{
+  width: 100%;
+  height: 510px;
+  background-color: #ddd;
+} 
+
+.box .col-12{
+  padding-inline: 30px;
+  padding-top: 15px;
+}
+
+.box .card{
+  width: 100%;
+  height: 150px;
+  background-color: #90BD92;
+}
+
+.box .blog-top{
+  width: 100%;
+  height: 100px;
+  background-color: #90BD92;
+}
+.box .blog-bottom{
+  width: 100%;
+  height: 365px;
+  background-color: #90BD92;
+}
+
+.center-content .box .row{
+  padding: 0px -15px;
+  padding-inline: 15px;
+}
+
+.center-content .box .col-9,
+.center-content .box .col-3,
+.center-content .box .col-4{
+  padding-inline: 15px;
+  padding-block: 15px;
+}
+
+.box .box-item{
+  width: 100%;
+  height: 100px;
+  background-color: #90BD92;
+}
+
+.box .box-item.center{
+  width: 100%;
+  height: 250px;
+  background-color: #90BD92;
+}
+
+.box .box-item.bottom{
+  width: 100%;
+  height: 100px;
+  background-color: #90BD92;
+}
+
+ 
+
+
+
